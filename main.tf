@@ -58,7 +58,4 @@ resource "aws_instance" "foo" {
   credit_specification {
     cpu_credits = "unlimited"
   }
- tags = {
-    Name = "primary_network_interface"
-  }
 }
